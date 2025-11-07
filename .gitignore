@@ -1,0 +1,5 @@
+*.o
+conf
+isodir
+Image
+Image.*

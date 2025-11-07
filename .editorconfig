@@ -1,0 +1,11 @@
+# for more information, visit: https://editorconfig.org
+
+root = true
+
+[{*.{c,h,S,sh},Makefile{.*}}]
+charset = utf-8
+end_of_line = lf
+indent_size = 8
+indent_style = tab
+insert_final_newline = true
+tab_width = 8
