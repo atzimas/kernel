@@ -1,5 +1,6 @@
-*.o
-conf
-isodir
-Image
-Image.*
+/target
+/conf
+/iso_root
+
+*.iso
+kernel*
