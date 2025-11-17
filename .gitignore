@@ -1,6 +1,5 @@
-/target
-/conf
-/iso_root
-
-*.iso
-kernel*
+*.o
+conf
+isodir
+Image
+Image.*
