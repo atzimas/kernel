@@ -28,9 +28,6 @@ To build the kernel image, run make with:
 
     zig build-exe -target x86-freestanding -T linker.lds
 
-or, if you have a _fancy_ system:
-
-    make -j
 
 After successfully building the raw kernel 64-bit ELF image,
 run the helpful `scripts/make-iso` script to create a bootable
