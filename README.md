@@ -26,7 +26,7 @@ which is _very, very, very bad_. A standard kernel would:
 ## Building
 To build the kernel image, run make with:
 
-    make
+    zig build-exe -target x86-freestanding -T linker.lds
 
 or, if you have a _fancy_ system:
 
